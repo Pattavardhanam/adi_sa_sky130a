@@ -4,6 +4,9 @@
 load {cicname}.raw
 
 echo "MEAS_START"
-
+meas tran tdec_outp TRIG v(clk) VAL=0.9 RISE=1 TARG v(outp) VAL=0.9 FALL=1
+meas tran v_oh MAX v(outn) FROM=10n TO=19n
+meas tran v_ol MIN v(outp) FROM=10n TO=19n
+meas tran idd_avg AVG i(vdd) FROM=20n TO=200n
 echo "MEAS_END"
 .endc

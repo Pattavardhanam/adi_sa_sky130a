@@ -1,2 +1,2 @@
 *Automatic generated instance fron ../../tech/scripts/genxdut ADI_SA
-XDUT VDD_1V8 VSS PWRUP_1V8  ADI_SA
+XDUT VDD VSS OUTP OUTN CLK INP INN  ADI_SA

@@ -1,10 +1,32 @@
-#<name>:
-#  src:
-#    - <paramters>
-#  typ: <typical spec value>
-#  name: <long name>
-#  min: <minimum spec value>
-#  max: <maximum spec value>
-#  scale: <scale, multiply result by scale>
-#  digits: <significant digits>
-#  unit: Unit
+v_oh:
+  src:
+    - v_oh
+  name: Output High Voltage
+  min: 1.6
+  typ: 1.8
+  max: 2.0
+  scale: 1
+  digits: 3
+  unit: V
+
+v_ol:
+  src:
+    - v_ol
+  name: Output Low Voltage
+  min: -0.2
+  typ: 0
+  max: 0.2
+  scale: 1
+  digits: 3
+  unit: V
+
+idd_avg:
+  src:
+    - idd_avg
+  name: Average Supply Current
+  min: -200
+  typ: -20
+  max: 0
+  scale: 1e6
+  digits: 3
+  unit: uA
