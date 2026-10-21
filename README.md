@@ -8,11 +8,11 @@ pattavardhanam
 
 # Why
 
-<explain why you made this module>
+To create an IP of a StrongARM comparator
 
 # How
 
-<explain short how you made this module>
+Followed the AIC2026 tutorial and made the 11 transistor schematic of the same.
 
 
 # What
@@ -28,12 +28,13 @@ pattavardhanam
 # Signal interface
 
 
-| Signal       | Direction | Domain  | Description                               |
-| :---         | :---:     | :---:   | :---                                      |
-| VDD_1V8      | Input     | VDD_1V8 | Main supply                               |
-| OSC_TEMP_1V8 | Output    | VDD_1V8 | Temperature dependent oscillation frequency|
-| PWRUP_1V8    | Input     | VDD_1V8 | Power up the circuit
-| VSS          | Input     | Ground  |                                           |
+| Signal       | Direction | Domain  | Description                 |
+| :---         | :---:     | :---:   | :---                        |
+| VDD          | Input     | VDD     | Main supply                 |
+| CLK          | Input     | VDD     | Clock                       |
+| INP          | Input     | VDD     | Differential positive input |
+| INN          | Input     | VDD     | Differential negative input |
+| VSS          | Input     | Ground  | Reference ground            |
 
 
 # Key parameters
