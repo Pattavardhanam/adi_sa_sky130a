@@ -4,11 +4,11 @@
 [![DOCS](../../actions/workflows/docs.yaml/badge.svg)](../../actions/workflows/docs.yaml)
 
 # Who
-pattavardhanam
+Aditya Pattavardhanam(pattavardhanam)
 
 # Why
 
-To create an IP of a StrongARM comparator
+
 
 # How
 
