@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 import pandas as pd
 import yaml
+import cicsim as cs
 
 def main(name):
   # Delete next line if you want to use python post processing
-  return
+  
+  fname = name +".png"
+  print(f"Saving {fname}")
+  cs.rawplot(name + ".raw","time","v(outn),i(vdd)" \
+    ,ptype="",fname=fname)
+
   yamlfile = name + ".yaml"
 
   # Read result yaml file

@@ -15,7 +15,7 @@
 * PARAMETERS
 *-----------------------------------------------------------------
 .param TRF  = 100p
-.param AVDD = {vdda}
+.param AVDD = 1.8
 .param VCM  = 0.9
 .param VDIFF = 10m
 *-----------------------------------------------------------------
@@ -43,7 +43,7 @@ set color0=white
 set color1=black
 unset askquit
 optran 0 0 0 100p 2n 0
-tran 0.1n 200n
+tran 0.1n 300n
 write
 quit
 .endc

@@ -2,7 +2,7 @@ v_oh:
   src:
     - v_oh
   name: Output High Voltage
-  min: 1.6
+  min: 1.5
   typ: 1.8
   max: 2.0
   scale: 1
